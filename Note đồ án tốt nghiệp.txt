@@ -1,0 +1,5 @@
+
++ Làm hệ thống chọn sản phẩm theo id (Mã SP) ở phần bill.
++ Làm hệ thống kiểm tra input. VD kiểm tra xem đúng là số điện thoại không ...
++ Làm hệ thống view theo loại sản phẩm. 
++ Làm hệ thống tìm kiếm cho sản phẩm, khách hàng, nhân viên và bill.

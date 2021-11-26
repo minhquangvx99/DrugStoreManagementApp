@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C00B667-392B-49BD-92C1-535419139FB6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DrugStoreManagementApp</RootNamespace>
+    <AssemblyName>DrugStoreManagementApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DrugStoreManagementApp.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Billings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Billings.Designer.cs">
+      <DependentUpon>Billings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers.Designer.cs">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ElipseControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Employees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees.Designer.cs">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products.Designer.cs">
+      <DependentUpon>Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Billings.resx">
+      <DependentUpon>Billings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers.resx">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees.resx">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products.resx">
+      <DependentUpon>Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_thuốc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_exit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_exit %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_thuốc1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_product %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_product %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_employee %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_customers %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_bill %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_logout %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thực phẩm chức năng %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tủ thuốc gia đình %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tủ thuốc covid %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chăm sóc cá nhân. làm đẹp %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thực phẩm chức năng.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tủ thuốc covid.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tủ thuốc gia đình.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tủ thuốc covid1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sức khoẻ giới tính.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chăm sóc cá nhân.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dụng cụ y tế.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thực phẩm chức năng1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thực phẩm chức năng2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thực phẩm chức năng6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tủ thuốc gia đình6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tủ thuốc covid6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chăm sóc cá nhân6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sức khoẻ giới tính6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dụng cụ y tế6.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

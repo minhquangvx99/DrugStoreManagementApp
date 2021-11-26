@@ -1,0 +1,16 @@
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\bin\Debug\DrugStoreManagementApp.exe.config
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\bin\Debug\DrugStoreManagementApp.exe
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\bin\Debug\DrugStoreManagementApp.pdb
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\obj\Debug\DrugStoreManagementApp.csproj.AssemblyReference.cache
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\obj\Debug\DrugStoreManagementApp.Properties.Resources.resources
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\obj\Debug\DrugStoreManagementApp.csproj.GenerateResource.cache
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\obj\Debug\DrugStoreManagementApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\obj\Debug\DrugStoreManagementApp.exe
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\obj\Debug\DrugStoreManagementApp.pdb
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\obj\Debug\DrugStoreManagementApp.Login.resources
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\obj\Debug\DrugStoreManagementApp.Splash.resources
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\obj\Debug\DrugStoreManagementApp.Home.resources
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\obj\Debug\DrugStoreManagementApp.Employees.resources
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\obj\Debug\DrugStoreManagementApp.Customers.resources
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\obj\Debug\DrugStoreManagementApp.Products.resources
+C:\Users\Admin\DrugStoreManagementApp\DrugStoreManagementApp\obj\Debug\DrugStoreManagementApp.Billings.resources

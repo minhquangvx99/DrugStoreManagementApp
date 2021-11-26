@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0c00b667-392b-49bd-92c1-535419139fb6": {
+      "ProjectGuid": "0c00b667-392b-49bd-92c1-535419139fb6",
+      "DisplayName": "DrugStoreManagementApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
